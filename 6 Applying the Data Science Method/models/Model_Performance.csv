@@ -1,0 +1,4 @@
+,Model,Explained Variance,Mean Absolute Error,Features Dropped
+0,1,0.94,4.93,
+1,2,0.931,5.26,state
+2,3,0.933,5.19,"state, summit_elev, base_elev"

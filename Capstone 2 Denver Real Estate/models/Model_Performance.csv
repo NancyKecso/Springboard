@@ -1,0 +1,7 @@
+,Model,Explained Variance,Mean Absolute Error,Note
+0,1,0.665,98359.41,Linear Regression
+1,2,0.916,34067.52,Random Forest
+2,3,0.838,51457.22,k nearest neighbors
+3,4,0.397,105983.12,SVR
+4,21,0.93,27460.28,"RF: bootstrap=False,max_depth=50,max_features=sqrt"
+5,22,0.93,26645.86,"RF: max_depth=100,max_features=4"
