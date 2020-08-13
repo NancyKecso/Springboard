@@ -33,10 +33,15 @@ Reviewing the input data revealed whole categories which would not be of interes
 
 [Step 4 - Preprocessing] (https://github.com/NancyKecso/Springboard/blob/master/Capstone%202%20Denver%20Real%20Estate/Capstone%202%20-%20Step%204%20Preprocessing.ipynb)
 
+The target I chose for the model is the IMPROVE_VALUE field; so, this will be a supervised regression model. The target is a continuous value but is not normally distributed.
+
+![target_distribtution](./figures/fig11.png)
 
 I ran the training data through four different models:  Linear Regression, Random Forest, k nearest neighbors, and SVR.
 
-The Random Forest was clearly the optimal choice.  
+The Random Forest was clearly the optimal choice.  Random Forest runs quite efficiently on large databases and works well with a large group of input features. It also handles data that is not normally distributed. It can also deal well with missing data, which was not an issue for this dataset.
+
+The tuning of the Random Forest hyperparameters will deliver further tuning for the model output.
 
 I had originally converted the neighborhood category to a set of dummy columns but that took most of the models too long to process. Dropping these fields from the model input had little effect on the model scores, so the extra fields were eliminated.
 I also ran Boruta against the proposed features and only used features in the green or blue regions.
