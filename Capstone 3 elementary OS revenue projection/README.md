@@ -15,7 +15,7 @@
     " |\n",
     "| --- | --- |\n",
     "\n",
-    "Using Python-based machine learning models, this report details the examination of the 2016-2020 revenues and a prediction of future revenues.\n",
+    "Using Python-based machine learning models, this report examines the 2016-2020 revenues and makes a prediction of future revenues.\n",
     "\n",
     "## Revenue Forecast\n",
     "\n",
